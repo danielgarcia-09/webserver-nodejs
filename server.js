@@ -19,15 +19,13 @@ app.get('/', (req, res) => {
 
     res.render('home', {
         nombre: 'Daniel gARCIA',
-        year: new Date().getFullYear()
     });
  
 })
 app.get('/about', (req, res) => {
 
     res.render('about', {
-        nombre: 'Daniel',
-        year: new Date().getFullYear()
+        nombre: 'Daniel'
     });
  
 })
